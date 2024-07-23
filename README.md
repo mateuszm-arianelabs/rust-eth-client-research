@@ -13,6 +13,9 @@ As they typed on the crate page, this package is barely maintained, and they are
 __Docs__
 In my opinion, the documentation is weak, but at least the library provides some examples of the most popular use cases.
 
+__Example in Hedera__
+You can find example of using `Web3 rs` with Hedera in `web3rs` dir
+
 __Examples:__
 
 Basic interaction with chain:
@@ -118,6 +121,9 @@ They write on their GitHub: "We are deprecating ethers-rs for Alloy."
 __Docs__
 `Ethers rs` has better documentation represented by the book at https://www.gakonst.com/ethers-rs/. However, it is incomplete and provides examples only for some parts.
 
+__Example in Hedera__
+You can find example of using `Ethers rs` with Hedera in `ethers` dir
+
 __Examples:__
 
 deployment and interact with contract
@@ -178,6 +184,9 @@ It's a relatively new library but highly developed and will probably become the 
 
 __Docs__  
 [Alloy documentation](https://alloy.rs/) contains rich examples of most use cases, with comments provided to explain everything line by line.
+
+__Example in Hedera__
+You can find example of using `Alloy core` with Hedera in `alloy` dir
 
 __Example__
 contract deployment and interaction.
