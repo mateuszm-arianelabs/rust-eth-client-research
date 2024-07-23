@@ -1,0 +1,9 @@
+Example output
+
+```shell
+Address 0x4c003D0E477B7b6c950912AD1DD0DB6E253522d1 balance: 976697350970000000000
+Deployed contract at address: 0xFba313d76735Fed8adb54DFF5e65A92E18F15101
+Set number to 42: 0xbd8bdc4318f08926ab40050126a58cbb5aefb22f859c55bde188ee80277a1ab8
+Incremented number: 0xbe208a95f7db4647155b4a95af5a085e321ff77e8ef2b34cdd43c6e916d35620
+Retrieved number: 43
+```

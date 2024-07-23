@@ -20,7 +20,7 @@ async fn main() -> web3::contract::Result<()> {
 
     // Check balance
     let balance = web3.eth().balance(address, None).await?;
-    println!("Address {address} balance: {balance}");
+    println!("Address {address:?} balance: {balance}");
 
     // Deploy contract
     let bytecode = include_str!("SimpleStorage.bin");
@@ -30,7 +30,7 @@ async fn main() -> web3::contract::Result<()> {
         .options(Options::with(|opt| opt.gas = Some(3_000_000.into())))
         .sign_with_key_and_execute(bytecode, (), &private_key, None)
         .await?;
-    println!("Deployed contract at address: {}", contract.address());
+    println!("Deployed contract at address: {:?}", contract.address());
 
     let result = contract.query("get", (), None, Options::default(), None);
     let storage: U256 = result.await?;

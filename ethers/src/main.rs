@@ -28,7 +28,7 @@ async fn main() -> Result<()> {
 
     // Show account balance
     let balance = provider.get_balance(address, None).await.unwrap();
-    println!("Address {address} balance: {balance}");
+    println!("Address {address:?} balance: {balance}");
 
     // Deploy contract
     let greeter_contract =
